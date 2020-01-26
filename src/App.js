@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import SearchBar from './components/SearchBar.js'
 import Message from './components/Message';
 import firebase from './lib/firebase.js';
 
@@ -103,25 +104,26 @@ class App extends React.Component {
   render = () => {
       return (
           <div className="app-container">
+            <SearchBar />
               <header className="header-text">the hive</header>
               <image src="Desktop/qwerhacks/images/MacBook-1.png"></image>
               <p>find out what's all the buzz!</p>
               <hr />
               <div className="message-box">
-                  <input 
+                  <input
                       className="text-input"
                       type="text"
-                      value={this.state.author} 
+                      value={this.state.author}
                       onChange={this.handleAuthorChange}
                   />
-                  <input 
+                  <input
                       className="text-input"
                       type="text"
-                      value={this.state.message} 
+                      value={this.state.message}
                       onChange={this.handleMessageChange}
                   />
-                  <button 
-                    className="send-button" 
+                  <button
+                    className="send-button"
                     onClick={this.createMessage}
                   >
                       Send Message
