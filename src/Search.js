@@ -40,7 +40,7 @@ function DraggableList({ items }) {
     if (!down) order.current = newOrder
   })
   return (
-    <div class="content" style={{ height: items.length * 100 }}>
+    <div><div class="content" style={{ height: items.length * 100 }}>
       {springs.map(({ zIndex, shadow, y, scale }, i) => (
         <animated.div
           {...bind(i)}
@@ -51,9 +51,10 @@ function DraggableList({ items }) {
             transform: interpolate([y, scale], (y, s) => `translate3d(0,${y}px,0) scale(${s})`)
           }}
           children={items[i]}
-        />
+        />    
       ))}
     </div>
+    <image src="https://i.imgur.com/moaldI7.png"></image></div>
   )
 }
 
