@@ -21,7 +21,7 @@ line-height: 42px;
 
 color: #FFFFFF;
 
-
+/*
 
 /* ABOUT */
 
@@ -126,7 +126,7 @@ color: #000000;
 
 
 /* Ellipse 51 */
-
+.whatever {
 position: absolute;
 width: 15.36px;
 height: 14.59px;
@@ -207,7 +207,7 @@ top: 92px;
 border: 10px solid #9E00FF;
   box-sizing: border-box;}
 /* Rectangle 17 */
-
+.ok {
 position: absolute;
 width: 747px;
 height: 635px;
@@ -488,3 +488,4 @@ left: 829px;
 top: 576px;
 
 background: #6CBE04;
+}
