@@ -1,5 +1,6 @@
 .app-container {
   background-color: white;
+  background: './public/1.png';
   font-size: 16px;
   min-height: calc(100vh - 2em);
   color: white;

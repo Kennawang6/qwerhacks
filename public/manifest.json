@@ -21,6 +21,11 @@
       "src": "MacBook-1.png",
       "type": "image/png",
       "sizes": "1280x695"
+    },
+    {
+      "src": "1.png",
+      "type": "image/png",
+      "sizes": "1279x862"
     }
   ],
   "start_url": ".",
