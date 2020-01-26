@@ -4,7 +4,7 @@ import clamp from 'lodash-es/clamp'
 import swap from 'lodash-move'
 import { useGesture } from 'react-with-gesture'
 import { useSprings, animated, interpolate } from 'react-spring'
-import './styles.css'
+//import './styles.css'
 
 // WHEN dragging, this function will be fed with all arguments.
 // OTHERWISE, only the list order is relevant.
