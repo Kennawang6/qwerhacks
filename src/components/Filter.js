@@ -36,6 +36,7 @@ class Filter extends React.Component {
                       value={this.state.upper}
                       onChange={this.handleUpperChange}
                     />
+                    <button className="remove">remove</button>
                 </div>
             </div>
         );
