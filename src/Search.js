@@ -54,7 +54,7 @@ function DraggableList({ items }) {
         />    
       ))}
     </div>
-    <image src="https://i.imgur.com/moaldI7.png"></image></div>
+    <img src="https://i.imgur.com/moaldI7.png" alt="text"/></div>
   )
 }
 
