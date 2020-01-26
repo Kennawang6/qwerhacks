@@ -15,15 +15,16 @@ class App extends React.Component {
 
   componentDidMount = () => {
     this.db = firebase.firestore();
-    this.unsubscribe = this.db.collection("movies")
+    this.unsubscribe = this.db.collection("titles")
     .orderBy("start-year", "desc").limit(10).onSnapshot((collection) => {
       let resultsList = [];
       collection.forEach(function(doc){
         let result = doc.data();
-        console.log(result);
         let newResult = {
-          title: result.title,
-          genre: result.genre
+          title: result['primary-title'],
+          genre: result.genre,
+          year: result['start-year'],
+          duration: result['runtime-minutes']
         }
         resultsList.push(newResult);
       });
@@ -32,6 +33,7 @@ class App extends React.Component {
       });
     });
   }
+
   componentWillUnmount = () => {
     this.unsubscribe();
   }

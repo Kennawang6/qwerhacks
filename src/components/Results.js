@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Results.css"
 // TODO add movie cards
 
 class Results extends React.Component {
@@ -15,7 +16,13 @@ class Results extends React.Component {
       let results = [];
       this.props.results.forEach((element, i) => {
         results.push(
-          <p key={element.title}>{element.title}</p>
+          <div className="movie-card" key={i}>
+            <img src="../../public/logo192.png" alt="movie thumbnail"/>
+            <h1>{element.title}</h1>
+            <p>{element.year}</p>
+            <p>{element.duration}</p>
+            <p>{element.genre}</p>
+          </div>
         );
       });
       return (

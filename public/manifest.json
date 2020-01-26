@@ -16,6 +16,11 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "MacBook-1.png",
+      "type": "image/png",
+      "sizes": "1280x695"
     }
   ],
   "start_url": ".",
