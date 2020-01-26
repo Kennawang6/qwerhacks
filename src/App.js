@@ -59,7 +59,6 @@ class App extends React.Component {
           title: element.title,
           popularity: element.popularity,
           poster: element.poster_path,
-          adult: element.adult,
           overview: element.overview,
           rating: element.vote_average,
           date: element.release_date

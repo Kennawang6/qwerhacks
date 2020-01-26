@@ -1,5 +1,6 @@
 import React from 'react';
 import Filter from './Filter.js'
+import './SearchBar.css'
 
 //BIG TODO CSS
 
@@ -8,7 +9,7 @@ class SearchBar extends React.Component {
     super(props);
     this.state = {
       filters: [],
-      options: ["popularity", "adult", "year", "vote average"] // TODO determine options
+      options: ["popularity", "adult", "vote average"] // TODO determine options
     };
   }
 
@@ -55,7 +56,7 @@ class SearchBar extends React.Component {
   render = () => {
     return(
       <div className='search-bar'>
-        <header>This is the search</header>
+        <h3>Search Criteria</h3>
         <button
           className="add-filter"
           onClick={this.createFilter}

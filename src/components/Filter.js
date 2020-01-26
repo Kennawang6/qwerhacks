@@ -4,8 +4,6 @@ class Filter extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      lower: 0,
-      upper: 0
     }
   }
 
