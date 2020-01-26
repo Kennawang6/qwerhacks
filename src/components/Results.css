@@ -4,3 +4,487 @@
   padding: 10px 30px 10px;
   margin: 50px 200px;
 }
+
+.home {/* HOME */
+
+position: absolute;
+width: 108px;
+height: 42px;
+left: 548px;
+top: 12px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+
+
+/* ABOUT */
+
+position: absolute;
+width: 122px;
+height: 42px;
+left: 805px;
+top: 12px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+
+
+/* TOP LIST */
+
+position: absolute;
+width: 158px;
+height: 42px;
+left: 1076px;
+top: 12px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+
+
+/* HOME */
+
+position: absolute;
+width: 108px;
+height: 42px;
+left: 560px;
+top: 9px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+
+
+/* ABOUT */
+
+position: absolute;
+width: 122px;
+height: 42px;
+left: 848px;
+top: 12px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 24 */
+
+position: absolute;
+width: 138px;
+height: 38px;
+left: 1096px;
+top: 16px;
+
+background: #FFFFFF;
+border-radius: 12px;
+
+
+/* Search... */
+
+position: absolute;
+width: 91px;
+height: 30px;
+left: 1108px;
+top: 21px;
+
+font-family: Oxygen;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+
+color: #000000;
+}
+
+
+/* Ellipse 51 */
+
+position: absolute;
+width: 15.36px;
+height: 14.59px;
+left: 1209.86px;
+top: 41.18px;
+
+border: 1.5px solid #000000;
+box-sizing: border-box;
+transform: rotate(-135deg);
+/* Ellipse 35 */
+
+position: absolute;
+width: 109px;
+height: 109px;
+left: 72px;
+top: 106px;
+
+border: 10px solid #0047FF;
+box-sizing: border-box;
+
+
+/* Ellipse 42 */
+
+position: absolute;
+width: 109px;
+height: 109px;
+left: 109px;
+top: 90px;
+
+border: 10px solid #6CBE04;
+box-sizing: border-box;
+
+
+/* Ellipse 43 */
+
+position: absolute;
+width: 109px;
+height: 109px;
+left: 35px;
+top: 30px;
+
+border: 10px solid #FF0000;
+box-sizing: border-box;
+
+
+/* Ellipse 44 */
+
+position: absolute;
+width: 109px;
+height: 109px;
+left: 72px;
+top: 20px;
+
+border: 10px solid #FF8A00;
+box-sizing: border-box;
+
+
+/* Ellipse 45 */
+
+position: absolute;
+width: 109px;
+height: 109px;
+left: 104px;
+top: 30px;
+
+border: 10px solid #FFC700;
+box-sizing: border-box;
+
+
+/* Ellipse 46 */
+
+position: absolute;
+width: 109px;
+height: 109px;
+left: 35px;
+top: 92px;
+
+border: 10px solid #9E00FF;
+  box-sizing: border-box;}
+/* Rectangle 17 */
+
+position: absolute;
+width: 747px;
+height: 635px;
+left: 294px;
+top: 74px;
+
+background: #FFFFFF;
+border-radius: 26px;
+
+
+/* Hlel */
+
+position: absolute;
+width: 44px;
+height: 30px;
+left: 556px;
+top: 211px;
+
+font-family: Oxygen;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 20 */
+
+position: absolute;
+width: 643px;
+height: 135px;
+left: 341px;
+top: 93px;
+
+background: #000000;
+border-radius: 13px;
+
+
+/* Hello this is where information for the movie will go, on the side is where the photo of the movie cover will be okay thanks for coming to my Ted Talk XOXO- Amanda */
+
+position: absolute;
+width: 497px;
+height: 124px;
+left: 487px;
+top: 99px;
+
+font-family: Oxygen;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+
+/* Ellipse 47 */
+
+position: absolute;
+width: 185px;
+height: 173px;
+left: 302px;
+top: 74px;
+
+background: #FF0000;
+
+
+/* Rectangle 22 */
+
+position: absolute;
+width: 643px;
+height: 135px;
+left: 341px;
+top: 429px;
+
+background: #000000;
+border-radius: 13px;
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 433px;
+height: 11px;
+left: 980px;
+top: 703.18px;
+
+background: #FF0000;
+transform: rotate(-45deg);
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 433px;
+height: 11px;
+left: 1018.48px;
+top: 741.48px;
+
+background: #FFC700;
+transform: rotate(-45deg);
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 433px;
+height: 11px;
+left: 1037.48px;
+top: 760.48px;
+
+background: #6CBE04;
+transform: rotate(-45deg);
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 433px;
+height: 11px;
+left: 1056.48px;
+top: 779.48px;
+
+background: #0047FF;
+transform: rotate(-45deg);
+
+
+/* Rectangle 15 */
+
+position: absolute;
+width: 433px;
+height: 11px;
+left: 1075.48px;
+top: 798.48px;
+
+background: #9E00FF;
+transform: rotate(-45deg);
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 433px;
+height: 11px;
+left: 999.48px;
+top: 722.48px;
+
+background: #FF8A00;
+transform: rotate(-45deg);
+
+
+/* Hello this is where information for the movie will go, on the side is where the photo of the movie cover will be okay thanks for coming to my Ted Talk XOXO- Amanda */
+
+position: absolute;
+width: 497px;
+height: 124px;
+left: 487px;
+top: 435px;
+
+font-family: Oxygen;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+
+/* Ellipse 49 */
+
+position: absolute;
+width: 185px;
+height: 173px;
+left: 302px;
+top: 410px;
+
+background: #FFC700;
+
+
+/* Hlel */
+
+position: absolute;
+width: 44px;
+height: 30px;
+left: 549px;
+top: 373px;
+
+font-family: Oxygen;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 21 */
+
+position: absolute;
+width: 629px;
+height: 135px;
+left: 318px;
+top: 261px;
+
+background: #000000;
+border-radius: 13px;
+
+
+/* Hello this is where information for the movie will go, on the side is where the photo of the movie cover will be okay thanks for coming to my Ted Talk XOXO- Amanda */
+
+position: absolute;
+width: 497px;
+height: 124px;
+left: 325px;
+top: 268px;
+
+font-family: Oxygen;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+
+/* Ellipse 48 */
+
+position: absolute;
+width: 185px;
+height: 173px;
+left: 829px;
+top: 240px;
+
+background: #FF8A00;
+
+
+/* Rectangle 23 */
+
+position: absolute;
+width: 629px;
+height: 135px;
+left: 318px;
+top: 597px;
+
+background: #000000;
+border-radius: 13px;
+
+
+/* Hello this is where information for the movie will go, on the side is where the photo of the movie cover will be okay thanks for coming to my Ted Talk XOXO- Amanda */
+
+position: absolute;
+width: 497px;
+height: 124px;
+left: 325px;
+top: 604px;
+
+font-family: Oxygen;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+
+
+
+/* Ellipse 50 */
+
+position: absolute;
+width: 185px;
+height: 173px;
+left: 829px;
+top: 576px;
+
+background: #6CBE04;
