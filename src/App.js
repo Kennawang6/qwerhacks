@@ -104,6 +104,7 @@ class App extends React.Component {
       return (
           <div className="app-container">
               <header className="header-text">the hive</header>
+              <image src="Desktop/qwerhacks/images/MacBook-1.png"></image>
               <p>find out what's all the buzz!</p>
               <hr />
               <div className="message-box">
