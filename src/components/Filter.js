@@ -31,7 +31,7 @@ class Filter extends React.Component {
       options.push(<option key={element} value={element}>{element}</option>)
     })
     return (
-      <div key="TODO-filter">
+      <div key="filter-key">
         <label htmlFor="filter-select">Filter By</label>
         <select name="filter" id="filter-select">{options}</select>
       </div>

@@ -7,9 +7,8 @@ class SearchBar extends React.Component {
   constructor(props){
     super(props);
     this.state = {
-      filters: [{lower: 0,
-      upper: 0}],
-      options: ["a", "b", "c", "d"] // TODO determine options
+      filters: [],
+      options: ["popularity", "adult", "year", "vote average"] // TODO determine options
     };
   }
 

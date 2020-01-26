@@ -19,8 +19,8 @@ class Results extends React.Component {
           <div className="movie-card" key={i}>
             <img src="../../public/logo192.png" alt="movie thumbnail"/>
             <h1>{element.title}</h1>
-            <p>{element.year}</p>
-            <p>{element.duration}</p>
+            <p>{element.date}</p>
+            <p>{element.popularity}</p>
             <p>{element.genre}</p>
           </div>
         );
