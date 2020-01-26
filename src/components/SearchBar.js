@@ -45,7 +45,7 @@ class SearchBar extends React.Component {
 
   render = () => {
     return(
-      <div className='Search'>
+      <div className='search-bar'>
         <header>This is the search</header>
         <button
           className="add-filter"
