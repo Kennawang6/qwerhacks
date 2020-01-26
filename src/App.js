@@ -70,7 +70,7 @@ class App extends React.Component {
 
   render = () => {
       return (
-          <div className="app-container">
+          <div className="app-container" background="http://i.imgur.com/C4dL7ex.png">
             <SearchBar
               onSearch={this.doSearch}
             />
