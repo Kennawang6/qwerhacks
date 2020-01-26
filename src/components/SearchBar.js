@@ -1,13 +1,15 @@
 import React from 'react';
 import Filter from './Filter.js'
 
+//BIG TODO CSS
+
 class SearchBar extends React.Component {
   constructor(props){
     super(props);
     this.state = {
       filters: [{lower: 0,
-      upper: 0,
-      name: "choose filter"}]
+      upper: 0}],
+      options: ["a", "b", "c", "d"] // TODO determine options
     };
   }
 
@@ -15,10 +17,15 @@ class SearchBar extends React.Component {
     let filters = this.state.filters;
     let newFilter = {
       lower: 0,
-      upper: 0,
-      name: "choose filter"
+      upper: 0
     }
     filters.push(newFilter);
+    this.setState({filters: filters});
+  }
+
+  removeFilter = i => {
+    let filters = this.state.filters;
+    filters.splice(i, 1);
     this.setState({filters: filters});
   }
 
@@ -31,9 +38,8 @@ class SearchBar extends React.Component {
         filters.push(
           <Filter
             key={i}
-            name={element.name}
-            upper={element.upper}
-            lower={element.lower}
+            remove={this.removeFilter}
+            options={this.state.options}
           />
         );
       });
@@ -43,6 +49,10 @@ class SearchBar extends React.Component {
     }
   }
 
+  onSearch = filters => () => {
+    this.props.onSearch(filters)
+  }
+
   render = () => {
     return(
       <div className='search-bar'>
@@ -50,9 +60,11 @@ class SearchBar extends React.Component {
         <button
           className="add-filter"
           onClick={this.createFilter}
-        >Add Filter!
-        </button>
+        >Add Filter!</button>
         {this.renderFilters()}
+        <button
+          onClick={this.onSearch(this.state.filters)}
+        >Find Movies</button>
       </div>
     );
   }

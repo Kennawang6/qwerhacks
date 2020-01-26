@@ -5,8 +5,7 @@ class Filter extends React.Component {
     super(props);
     this.state = {
       lower: 0,
-      upper: 0,
-      name: "choose filter"
+      upper: 0
     }
   }
 
@@ -18,29 +17,48 @@ class Filter extends React.Component {
     this.setState({upper: e.target.value})
   }
 
-    render(){
-        return (
-            <div className="filter">
-                <div className="filter-item">
-                    <p><b>{this.props.name}</b> </p>
-                    <button className="dropbtn">name</button>
-                    <input
-                      className="text-input"
-                      type="number"
-                      value={this.state.lower}
-                      onChange={this.handleLowerChange}
-                    /> to
-                    <input
-                      className="text-input"
-                      type="number"
-                      value={this.state.upper}
-                      onChange={this.handleUpperChange}
-                    />
-                    <button className="remove">remove</button>
-                </div>
-            </div>
-        );
+  remove = () => this.props.remove(this.props.key)
+  // TODO fix order of removal
+
+  getSelector = () => {
+    if (this.props.options.length === 0){
+      return (
+        <div></div>
+      );
     }
+    let options = [];
+    this.props.options.forEach((element, i) => {
+      options.push(<option key={element} value={element}>{element}</option>)
+    })
+    return (
+      <div key="TODO-filter">
+        <label htmlFor="filter-select">Filter By</label>
+        <select name="filter" id="filter-select">{options}</select>
+      </div>
+    );// TODO how to export selector value if possible
+  }
+
+  render(){
+    return (
+      <div className="filter">
+        <div className="filter-item">
+          {this.getSelector()}
+          <input
+            className="filter-low"
+            type="number"
+            value={this.state.lower}
+            onChange={this.handleLowerChange}
+          /> to <input
+            className="filter-high"
+            type="number"
+            value={this.state.upper}
+            onChange={this.handleUpperChange}
+          />
+          <button className="filter-remove" onClick={this.remove}>remove</button>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Filter;
