@@ -1,7 +1,7 @@
 # QWER Films
 ### A website allowing users to search for movies with queer representation.
 ### Submission for QWER Hacks 2020
-## visit at [isitgay.tech](isitgay.tech)
+## visit at [https://isitgay.tech](isitgay.tech)
 
 ## Purpose
 QWER Films
