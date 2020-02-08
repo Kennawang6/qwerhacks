@@ -7,7 +7,7 @@
 QWER Films
 
 ## How It Works
-This is a web app built with React.js. The intention is to store data of each movie with queer characters and experiences using Google Firestore. This data would include basic information and statistics about LGBTQIA+ representation. For sake of the demo though
+This is a web app built with React.js. The intention is to store data of each movie with queer characters and experiences using Google Firestore. This data would include basic information and statistics about LGBTQIA+ representation. For sake of the demo though, we used a local copy of the movie information and used data that did not have advanced statistics about representation.
 
 ## Future Improvements
 We have several features and improvements we wanted to accomplish if we had more time to work on this project. We would want to find more sources of data for the movies so that we can offer insights on the quality of the representation, such as number of queer characters, if those queer characters are main characters and if the actors playing the characters are also queer.
