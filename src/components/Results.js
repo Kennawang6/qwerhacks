@@ -18,11 +18,13 @@ class Results extends React.Component {
         results.push(
           <div className="movie-card" key={i}>
             <img className="poster" src={"http://image.tmdb.org/t/p/w200".concat(element.poster)} alt="movie thumbnail"/>
-            <h1>{element.title}</h1>
-            <p>Released {element.date}</p>
-            <p>{element.popularity} popularity</p>
-            <p>User voted rating: {element.rating}</p>
-            <p>{element.overview}</p>
+            <div className="movie-info">
+              <h1>{element.title}</h1>
+              <p>Released {element.date}</p>
+              <p>{element.popularity} popularity</p>
+              <p>User voted rating: {element.rating}</p>
+              <p>{element.overview}</p>
+            </div>
           </div>
         );
       });

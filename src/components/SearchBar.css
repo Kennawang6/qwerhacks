@@ -1,12 +1,14 @@
 .search-bar{
   padding: 20px;
-  margin: 10px 400px;
+  margin: 10px auto;
+  max-width: 400px;
   background-color: black;
   border-radius: 20px;
 }
 
 button {
   padding: 5px;
+  margin: 5px;
   border-radius: 7px;
   background-color: white;
 }

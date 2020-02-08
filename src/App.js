@@ -22,31 +22,6 @@ class App extends React.Component {
     // })
   }
 
-  /*componentDidMount = () => {
-    this.db = firebase.firestore();
-    this.unsubscribe = this.db.collection("titles")
-    .orderBy("start-year", "desc").limit(10).onSnapshot((collection) => {
-      let resultsList = [];
-      collection.forEach(function(doc){
-        let result = doc.data();
-        let newResult = {
-          title: result['primary-title'],
-          genre: result.genre,
-          year: result['start-year'],
-          duration: result['runtime-minutes']
-        }
-        resultsList.push(newResult);
-      });
-      this.setState({
-        results: resultsList
-      });
-    });
-  }
-
-  componentWillUnmount = () => {
-    this.unsubscribe();
-  }*/
-
   doSearch = filters => {
     //if (filters.length !== 0){
       let results = [];
@@ -70,7 +45,7 @@ class App extends React.Component {
 
   render = () => {
       return (
-          <div className="app-container" background="http://i.imgur.com/C4dL7ex.png">
+          <div className="app-container" background="bubbles.png">
             <SearchBar
               onSearch={this.doSearch}
             />
